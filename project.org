@@ -1,0 +1,17 @@
+* Problem 5 -- Smallest Multiple
+** PROOF
+   All of the following variables declared can be assumed to be integers. 
+   Let:     a*i = y      
+            b*k = y       whenever, {a*i' = y', b*i' = y'} --> y' > y
+                                    (i.e., y is the least common denominator)
+                               
+   Suppose: a*l = x
+            b*k = x       where x > y  (i.e., x is a least common multiple greater
+                                        than y)
+        
+   Then:    It follows that x = (z/w)*y 
+                                      (this is not hard to prove and easy to believe,
+                                       so I don't prove it. It's true that y scales
+                                       x as a ratio of two integers. l/i in the first 
+                                       case, m/k in the second.   )
+            
