@@ -24,7 +24,7 @@
 
 
 ; Same algorithm, except this implemention recurses using the recur key word to allow for
-; tail-call optimization by clojure.
+; tail-call optimization by clojure (sort of).
 (defn largest-prime-factor-v2
   ([number]
    (largest-prime-factor-v2 number 2))
